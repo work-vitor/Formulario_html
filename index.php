@@ -14,7 +14,7 @@
     
 
     <div class="cad">
-        <form method="post" action="" enctype="multipart/form-data" class="form">
+        <form method="post" action="controller/controllerInsert.php"  class="form">
             <div >
                 <h2>Lista de Tarefas</h2>
             </div>
@@ -50,15 +50,12 @@
                 <label >
                     <h4>Observações</h4>
                 </label>
-                <textarea name="texto" placeholder="">
+                <textarea name="obs" placeholder="">
                     
             </textarea>
             </div>
             <div>
-                <label>
-                    <h4>Arquivos</h4>
-                </label>
-                <input type="file" name="img" class="arq">
+               
             </div>
 
             <div>
